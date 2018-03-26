@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 970px;
+    height: 885px;
+    background-color: #245076;
+    font-family: Arial;
+    margin: 0 auto;
+}
+
+#searchp{
+text-align: right;
+color: white;
+padding-top: 5px;
+padding-right: 55px;
+}
+.underline{
+    color: #F8CF31;
+    text-decoration: underline;
+}
+
+#img{
+    width: 370px;
+    height: 115px;
+    margin-left: 35px;
+    display: inline-block;
+    background-image: url("python.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+#search{
+    width: 310px;
+    height: 65px;
+    margin: 15px 0px 0px 240px;
+    background-color: #444444;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 2px 2px 2px;
+}
+#search input{
+    height: 35px;
+    width: 175px;
+    box-shadow: 2px 3px grey inset;
+    margin: 12px 3px 0px 45px;
+    text-align: center;
+}
+#search button{
+    background-color: #245076;
+    color: white;
+    width: 45px;
+    height: 34px;
+    border-radius: 7px;
+}
+
+#nav{
+    margin-left: 85px;
+    width: 850px;
+    height: 50px;
+    background-color: #407bad;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 0px;
+}
+#nav ul{
+    margin-left: 45px;
+}
+#nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    font-size: 21px;
+    margin: 13px 18px 0px;
+}
+
+
+#list{
+    margin-left: 130px;
+    margin-top: 35px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#list ul{
+    list-style: none;
+}
+#list ul li {
+    color: yellow;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#list ul li a{
+    color: white;
+}
+#list ul li:before {
+    content: "\00BB \0020";
+     }
+
+#text{
+    display: inline-block;
+    vertical-align: top;
+    width: 626px;
+    height: 340px;
+    margin-left: 20px;
+}
+.toptext{
+    text-align: center;
+    margin-top: 20px;
+}
+.bottomtext{
+    color: #F8CF31;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.5;
+    font-style: italic;
+    margin: 5px;
+}
+#author{
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+#middlepart {
+    width: 970px;
+    height: 250px;
+    background-color: white;
+}
+#gettingstarted {
+    display: inline-block;
+    width: 330px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#gettingstarted hr{
+    width: 400px;
+    height: 3px;
+    background-color: #73a7d5;
+    margin-left: -15px;
+}
+ h3{
+    margin: 5px;
+}
+#middlepart ul{
+    margin: 0px 35px;
+    list-style-type: square;
+} 
+
+#middlepart ul li{
+    color: #78aad6;
+}
+
+#applications{
+    display: inline-block;
+    vertical-align: top;
+    width: 330px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 115px;
+}
+
+#applications hr{
+    width: 405px;
+    height: 3px;
+    background-color: #73a7d5;
+    margin-left: -10px;
+}
+
+#highlight{
+    font-size: 12px;
+    color: #78aad6;
+}
+
+#bottom{
+    width: 970px;
+    margin-top: 60px;
+    background: linear-gradient(to bottom, #245076 0%, #3374ac 100%);
+
+}
+
+    #bottom a {
+        text-decoration: none;
+        color: #84b7e3;
+        font-size: 19px;
+        padding: 0px;
+        margin-left: 60px;
+}
+#bottom p{
+    text-align: center;
+    font-size: 10px;
+    padding: 7px;
+    color: #84b7e3;
+}
+
+#href{
+    text-align: center;
+}
